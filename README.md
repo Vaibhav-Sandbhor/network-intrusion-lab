@@ -51,16 +51,13 @@ shifted from the original 192.168.254.0/24).
 \## Detections planned
 
 
+## Detections built
 
-| Technique | Status |
-
-|---|---|
-
-| Port scan / reconnaissance (Nmap) | Planned |
-
-| Brute-force over network (Hydra vs Metasploitable) | Planned |
-
-| Anomalous traffic pattern | Planned |
+| Technique | MITRE ATT&CK | Status |
+|---|---|---|
+| Port scan / reconnaissance (Nmap) | T1046 | Complete |
+| Brute-force over network (Hydra vs Metasploitable FTP) | T1110 | Complete |
+| Traffic analysis & IOC extraction (Wireshark) | - | Complete |
 
 
 
